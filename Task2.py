@@ -7,16 +7,16 @@ op = input("Enter the operation you want to perform : ")
 if op == "+":
     print(num1+num2)
     
-if op == "-":
+elif op == "-":
     print(num1-num2)
 
-if op == "*":
+elif op == "*":
     print(num1*num2)
 
-if op == "/":
+elif op == "/":
     print(num1/num2)
 
-if op == "**":
+elif op == "**":
     print(num1**num2)
 
 else:
